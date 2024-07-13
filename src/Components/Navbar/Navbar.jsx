@@ -2,9 +2,10 @@ import React from 'react'
 import './Navbar.css'
 import menu_icon from '../../assets/menu.png'
 import logo from '../../assets/logo.png'
+import logo1 from '../../assets/logo1.png'
 import search_icon from '../../assets/search.png'
 import upload_icon from '../../assets/upload.png'
-import more_icon from '../../assets/more.png'
+import cast from '../../assets/cast.png'
 import notification_icon from '../../assets/notification.png'
 import profile_icon from '../../assets/jack.png'
 import voice from '../../assets/voice-search.png'
@@ -14,6 +15,7 @@ const Navbar = ({setSidebar}) => {
     <nav className='flex-div'>
         <div className='nav-left flex-div'>
             <img className='menu-icon' onClick={()=>setSidebar(prev=>prev===false?true:false)} src={menu_icon} alt=""/>
+            <img className="logo1" src={logo1} alt="" />
             <Link to="/"><img className='logo' src={logo} alt=""/></Link>
         </div>
         
@@ -27,7 +29,7 @@ const Navbar = ({setSidebar}) => {
 
         <div className="nav-right flex-div">
             <img src={upload_icon} alt="" />
-            <img src={more_icon} alt="" />
+            <img src={cast} alt="" />
             <img src={notification_icon} alt="" />
             <img src={profile_icon} className='user-icon' alt="" />   
         </div>

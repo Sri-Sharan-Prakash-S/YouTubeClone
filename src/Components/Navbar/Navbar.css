@@ -13,7 +13,8 @@ nav{
 }
 
 .nav-left .logo{
-    width:125px;
+    width:120spx;
+    height: 40px;
 }
 
 .nav-left .logo1{
@@ -47,7 +48,7 @@ nav{
 }
 
 .nav-right img{
-    width: 30px;
+    width: 25px;
 }
 
 .nav-right img:hover{
